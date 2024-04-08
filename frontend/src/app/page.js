@@ -1,10 +1,14 @@
 
 import styles from "./page.module.css";
+import { Home } from './views/Home';
+import { NavBar } from './components/navbar';
 
-export default function Home() {
+export default function App() {
   return (
     <div>
-      <p> Midnight </p>
+      <NavBar />
+      <Home />
     </div>
+    
   );
 }
