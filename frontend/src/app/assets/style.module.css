@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+/* app.js css */
+.pageContent {
+    background-color: #526582;
+}
+
 /* ----------------- */
 /* nav bar styling */
 .navbody {
@@ -9,7 +14,8 @@
     left: 0;
     width: 100%;
     padding: 10px 20px;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -18,13 +24,42 @@
     font-family: 'Source Serif Pro', serif;
     font-weight: 700; /* bold */
     font-size: 40px;
+    margin-left: 20px;
+}
+/* nav button! */
+.navButton {
+    background-color: transparent;
+    color: #BFCC94;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.navButton:hover {
+    color:#FFFFFF;
+}
+.navButton:active {
+    color: #BFCC94;
 }
 
-.pageContent {
-    background-color: #526582;
-}
 /* ----------------- */
 /* home page styling */
 .homePage {
     padding-top: 150px; /* ensures that homepage content loads after nav */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.homeh1 {
+    color: #FFFFFF;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.homeh2 {
+    color: #0C151C;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 800;
+    font-size: 40px;
 }
