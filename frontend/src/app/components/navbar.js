@@ -1,6 +1,11 @@
+import style from '../assets/style.module.css'
+import React from 'react';
 
 export function NavBar() {
     return(
-        <h1>Navbar</h1>
+        <div className={style.navbody}>
+            <p className={style.navTitle}>Midnight</p>
+        </div>
+
     );
 }

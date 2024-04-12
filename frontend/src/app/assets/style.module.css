@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+/* ----------------- */
+/* nav bar styling */
+.navbody {
+    background-color: #0C151C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navTitle {
+    color: #FFFFFF;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 700; /* bold */
+    font-size: 40px;
+}
+
+.pageContent {
+    background-color: #526582;
+}
+/* ----------------- */
+/* home page styling */
+.homePage {
+    padding-top: 150px; /* ensures that homepage content loads after nav */
+}
