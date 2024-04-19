@@ -1,18 +1,14 @@
 
-import { Home } from './views/Home';
-import { NavBar } from './components/navbar';
-import {useRouter} from 'next/navigation';
-
-import style from './assets/style.module.css';
+'use client';
+import Home from './pages/home/page';
+import NavBar from './pages/navbar';
+import style from './pages/style.module.css';
 
 export default function App() {
-  const router = useRouter()
-
   return (
     <div>
       <NavBar />
       <Home />
     </div>
-    
   );
 }

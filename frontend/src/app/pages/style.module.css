@@ -4,7 +4,11 @@
 .pageContent {
     background-color: #526582;
 }
-
+.body-class {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
 /* ----------------- */
 /* nav bar styling */
 .navbody {
@@ -63,3 +67,5 @@
     font-weight: 800;
     font-size: 40px;
 }
+
+

@@ -1,6 +1,4 @@
-import { inter } from './assets/fonts'
-import {sourceSerif} from './assets/fonts'
-import style from './assets/style.module.css'
+import style from './pages/style.module.css'
 
 export const metadata = {
   title: "Midnight",

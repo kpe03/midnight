@@ -1,5 +1,8 @@
 import requests
 from django.http import JsonResponse
+"""
+views for midnight api
+"""
 
 """ OPEN LIBRARY API """
 """ search request """
